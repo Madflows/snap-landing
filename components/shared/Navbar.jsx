@@ -56,7 +56,7 @@ const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
     return (
         <nav className='w-full py-4'>
-            <div className="container flex items-center justify-between">
+            <div className="px-4 flex items-center justify-between">
                 <div><img src="/images/logo.svg" alt="Snap Logo" /></div>
 
                 <button onClick={() => setIsOpen(!isOpen)} className='md:hidden z-50'>

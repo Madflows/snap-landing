@@ -5,7 +5,7 @@ const Layout = ({children}) => {
   return (
     <div className='w-full grid grid-cols-1'>
         <Navbar />
-        <main className='container'>
+        <main>
             {children}
         </main>
     </div>
